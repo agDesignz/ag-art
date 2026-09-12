@@ -1,27 +1,27 @@
 {
-  "name": "alexgeerart",
-  "version": "1.0.0",
-  "description": "Custom WP Blocks theme for Alex Geer Art.",
-  "main": "build/index.js",
-  "author": "Alexander <alexgeorgegeer@gmail.com>",
-  "license": "GPL-2.0-or-later",
-  "scripts": {
-    "build": "wp-scripts build --webpack-copy-php --blocks-manifest",
-    "format": "wp-scripts format",
-    "lint:css": "wp-scripts lint-style",
-    "lint:js": "wp-scripts lint-js",
-    "packages-update": "wp-scripts packages-update",
-    "plugin-zip": "wp-scripts plugin-zip",
-    "start": "wp-scripts start --webpack-copy-php --blocks-manifest",
-    "dev": "wp-scripts start src/index.js",
-    "blocks": "wp-scripts start --experimental-modules --blocks-manifest"
-  },
-  "dependencies": {
-    "@wordpress/block-editor": "latest",
-    "@wordpress/blocks": "latest",
-    "@wordpress/i18n": "latest"
-  },
-  "devDependencies": {
-    "@wordpress/scripts": "^35.0.0"
-  }
+	"name": "alexgeerart",
+	"version": "1.0.0",
+	"description": "Custom WP Blocks theme for Alex Geer Art.",
+	"main": "build/index.js",
+	"author": "Alexander <alexgeorgegeer@gmail.com>",
+	"license": "GPL-2.0-or-later",
+	"scripts": {
+		"build": "wp-scripts build --webpack-copy-php --blocks-manifest",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start --webpack-copy-php --blocks-manifest",
+		"dev": "wp-scripts start src/index.js",
+		"blocks": "wp-scripts start --experimental-modules --blocks-manifest"
+	},
+	"dependencies": {
+		"@wordpress/block-editor": "latest",
+		"@wordpress/blocks": "latest",
+		"@wordpress/i18n": "latest"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^35.0.0"
+	}
 }

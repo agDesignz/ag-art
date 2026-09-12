@@ -1,0 +1,94 @@
+/*!**************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./css/main.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 50%;
+}
+@media only screen and (min-width: 75em) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+body {
+  box-sizing: border-box;
+  line-height: 1.2;
+}
+
+figure {
+  overflow: hidden;
+  margin: 0;
+}
+
+figure > img {
+  max-height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.wp-site-blocks {
+  background: linear-gradient(to bottom, var(--wp--preset--color--light-green), var(--wp--preset--color--dark-green));
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2rem 0 2rem;
+  min-height: 100vh;
+  position: relative;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+
+body {
+  font-family: var(--wp--preset--font-family--crimson-pro);
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--wp--preset--color--off-white);
+}
+
+.heading-1 {
+  font-family: var(--wp--preset--font-family--dyer-arts-and-crafts);
+  font-weight: 500;
+  font-size: 3.6rem;
+  letter-spacing: 1.2px;
+}
+@media only screen and (min-width: 56.25em) {
+  .heading-1 {
+    font-size: 5rem;
+    letter-spacing: 1.5px;
+  }
+}
+
+.heading-3 {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 1px;
+}
+@media only screen and (min-width: 62.5em) {
+  .heading-3 {
+    font-size: 2.5rem;
+    line-height: 1.5;
+  }
+}
+
+/*# sourceMappingURL=index.css.map*/
