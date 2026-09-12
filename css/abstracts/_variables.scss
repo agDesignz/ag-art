@@ -1,7 +1,6 @@
-// =============================================================================
-// VARIABLES.SCSS
-// This file maps SCSS variables to WordPress theme.json CSS variables.
-// =============================================================================
+@use "./mixins" as m;
+
+// This Section maps SCSS variables to WordPress theme.json CSS variables.
 
 // Colors
 $black: var(--wp--preset--color--black);
@@ -21,3 +20,19 @@ $font-primary: var(--wp--preset--font-family--crimson-pro);
 $font-secondary: var(--wp--preset--font-family--eb-garamond);
 $font-tertiary: var(--wp--preset--font-family--josefin-sans-thin);
 $font-display: var(--wp--preset--font-family--dyer-arts-and-crafts);
+
+// Regular Variables
+
+$img-shadow: 0 0.5rem 1rem rgba($darkGray, 0.5);
+$bg-green: linear-gradient(to bottom, $lightGreen, $darkGreen);
+$default-font-size: 2rem;
+$font-light: $offWhite;
+
+// Sizes
+$gap-sm: 3.5rem;
+$gap-md: 5rem;
+$gap-lg: 8.5rem;
+
+// Social Icons
+$si-size: 3.5rem;
+$si-bg: $offWhite;

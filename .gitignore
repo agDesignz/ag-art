@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Yarn
+.yarn/
+.pnp.*
+.yarnrc.yml
+
+# Local development
+.env
+*.log
+.DS_Store
+
+# WordPress
+wp_data/
+uploads.ini
+
+dev
+/build/
+/assets/html/

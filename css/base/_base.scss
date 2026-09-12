@@ -1,0 +1,36 @@
+@use "../abstracts/mixins" as m;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 50%;
+
+  @include m.respond(bp-xl) {
+    font-size: 62.5%;
+  }
+}
+
+body {
+  box-sizing: border-box;
+  line-height: 1.2;
+}
+
+figure {
+  overflow: hidden;
+  // box-shadow: v.$img-shadow;
+  margin: 0;
+}
+
+figure > img {
+  // max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  display: block;
+}
