@@ -1,0 +1,23 @@
+// =============================================================================
+// VARIABLES.SCSS
+// This file maps SCSS variables to WordPress theme.json CSS variables.
+// =============================================================================
+
+// Colors
+$black: var(--wp--preset--color--black);
+$darkGray: var(--wp--preset--color--dark-gray);
+$gray: var(--wp--preset--color--gray);
+$offWhite: var(--wp--preset--color--off-white);
+$transparentOffWhite: var(--wp--preset--color--transparent-off-white);
+$white: var(--wp--preset--color--white);
+$lightGreen: var(--wp--preset--color--light-green);
+$green: var(--wp--preset--color--green);
+$darkGreen: var(--wp--preset--color--dark-green);
+$gold: var(--wp--preset--color--gold);
+$lightGold: var(--wp--preset--color--light-gold);
+
+// Fonts
+$font-primary: var(--wp--preset--font-family--crimson-pro);
+$font-secondary: var(--wp--preset--font-family--eb-garamond);
+$font-tertiary: var(--wp--preset--font-family--josefin-sans-thin);
+$font-display: var(--wp--preset--font-family--dyer-arts-and-crafts);
