@@ -90,3 +90,32 @@ body {
     line-height: 1.5;
   }
 }
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+}
+.site-header__brand {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-family: var(--wp--preset--font-family--crimson-pro);
+  font-weight: 100;
+}
+.site-header__logo {
+  height: 6rem;
+}
+@media only screen and (min-width: 56.25em) {
+  .site-header__logo {
+    height: 10rem;
+  }
+}
+.site-header__logo > svg {
+  height: 100%;
+  stroke: var(--wp--preset--color--off-white);
+  fill: var(--wp--preset--color--off-white);
+}
+.site-header__logo > svg:active, .site-header__logo > svg:hover {
+  stroke: var(--wp--preset--color--gold);
+  fill: var(--wp--preset--color--gold);
+}
