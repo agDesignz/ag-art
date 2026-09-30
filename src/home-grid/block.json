@@ -1,0 +1,20 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "agart-blocks/home-grid",
+	"title": "Home Grid",
+	"category": "media",
+	"icon": "format-gallery",
+	"attributes": {
+		"images": {
+			"type": "array",
+			"default": [{ "id": 0 }, { "id": 0 }, { "id": 0 }, { "id": 0 }]
+		}
+	},
+	"supports": { "html": false },
+	"textdomain": "agart-blocks",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php"
+}

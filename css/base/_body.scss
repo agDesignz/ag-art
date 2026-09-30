@@ -2,24 +2,25 @@
 @use "../abstracts/mixins" as m;
 
 .wp-site-blocks {
-  background: v.$bg-green;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
+	background: v.$bg-green;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
 
-  display: flex;
-  flex-direction: column;
-  padding: 2rem 2rem 0 2rem;
-  min-height: 100vh;
-  position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2rem 2rem 0 2rem;
+	min-height: 100vh;
+	position: relative;
 
-  //   @include m.respond(bp-md) {
-  //     padding: 5rem 5rem 0 5rem;
-  //   }
+	//   @include m.respond(bp-md) {
+	//     padding: 5rem 5rem 0 5rem;
+	//   }
 
-  //   @include m.respond(bp-xl) {
-  //     padding: 5rem 12rem 0 12rem;
-  //   }
+	//   @include m.respond(bp-xl) {
+	//     padding: 5rem 12rem 0 12rem;
+	//   }
 }
 
 // .header-block {
