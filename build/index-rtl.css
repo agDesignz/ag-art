@@ -95,13 +95,6 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.site-header__brand {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  font-family: var(--wp--preset--font-family--crimson-pro);
-  font-weight: 100;
-}
 .site-header__logo {
   height: 6rem;
 }
