@@ -28,8 +28,9 @@ import "./editor.scss";
  * @return {Element} Element to render.
  */
 export default function Edit() {
+	const blockProps = useBlockProps({ className: "site-header" });
 	return (
-		<header class="site-header">
+		<header {...blockProps}>
 			<div class="site-header__brand">
 				<a class="site-header__logo u-logo-height" href="index.html">
 					{" "}
