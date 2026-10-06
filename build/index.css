@@ -47,6 +47,7 @@ figure > img {
   padding: 2rem 2rem 0 2rem;
   min-height: 100vh;
   position: relative;
+  gap: 4rem;
 }
 
 html,
@@ -131,28 +132,6 @@ body {
   left: 0;
   background: var(--wp--preset--color--off-white);
   z-index: 50;
-}
-
-.site-header {
-  display: flex;
-  justify-content: space-between;
-}
-.site-header__logo {
-  height: 6rem;
-}
-@media only screen and (min-width: 56.25em) {
-  .site-header__logo {
-    height: 10rem;
-  }
-}
-.site-header__logo > svg {
-  height: 100%;
-  stroke: var(--wp--preset--color--off-white);
-  fill: var(--wp--preset--color--off-white);
-}
-.site-header__logo > svg:active, .site-header__logo > svg:hover {
-  stroke: var(--wp--preset--color--gold);
-  fill: var(--wp--preset--color--gold);
 }
 
 /*# sourceMappingURL=index.css.map*/

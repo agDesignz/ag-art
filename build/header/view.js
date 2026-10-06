@@ -2,32 +2,44 @@
 /*!****************************!*\
   !*** ./src/header/view.js ***!
   \****************************/
-/**
- * Use this file for JavaScript code that you want to run in the front-end
- * on posts/pages that contain this block.
- *
- * When this file is defined as the value of the `viewScript` property
- * in `block.json` it will be enqueued on the front end of the site.
- *
- * Example:
- *
- * ```js
- * {
- *   "viewScript": "file:./view.js"
- * }
- * ```
- *
- * If you're not making any changes to this file because your project doesn't need any
- * JavaScript running in the front-end, then you should delete this file and remove
- * the `viewScript` property from `block.json`.
- *
- * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-metadata/#view-script
- */
+// const toggleButtons = document.querySelectorAll(".site-header__toggle");
+// const nav = document.querySelector(".site-header__overlay");
+// toggleButtons.forEach((toggleButton) => {
+// 	toggleButton.addEventListener("click", () => {
+// 		nav.classList.toggle("site-header__overlay--show");
+// 	});
+// });
 
-/* eslint-disable no-console */
-const navArea = document.querySelector(".nav");
-navArea.addEventListener("click", showProps);
-/* eslint-enable no-console */
+class StickyHeader {
+  constructor() {
+    this.root = document.querySelector(".site-header");
+    this.wrapper = document.querySelector(".site-header__wrapper");
+    this.overlay = document.querySelector(".site-header__overlay");
+    this.options = {
+      root: null,
+      rootMargin: "120px",
+      threshold: 1
+    };
+    this.headerObserver = new IntersectionObserver(this.stick.bind(this), this.options);
+    this.events();
+  }
+  events() {
+    this.headerObserver.observe(this.root);
+    this.wrapper.addEventListener("click", e => {
+      console.log("clicked");
+      e.target.classList.contains("site-header__toggle") && this.overlay.classList.toggle("site-header__overlay--show");
+    });
+  }
+  stick(entries) {
+    const [entry] = entries;
+    if (!entry.isIntersecting) {
+      this.wrapper.classList.add("site-header__wrapper--fixed");
+    } else {
+      this.wrapper.classList.remove("site-header__wrapper--fixed");
+    }
+  }
+}
+new StickyHeader();
 /******/ })()
 ;
 //# sourceMappingURL=view.js.map

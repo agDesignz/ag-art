@@ -1,0 +1,121 @@
+/*!**********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/header/style.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************/
+.site-header {
+  width: 100%;
+}
+.site-header__wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-header__wrapper--fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 150;
+  background-color: var(--wp--preset--color--green);
+  padding: 2rem;
+}
+.site-header__logo {
+  height: 4.5rem;
+}
+@media only screen and (min-width: 37.5em) {
+  .site-header__logo {
+    height: 6rem;
+  }
+}
+@media only screen and (min-width: 56.25em) {
+  .site-header__logo {
+    height: 10rem;
+  }
+}
+.site-header__logo > svg {
+  height: 100%;
+  stroke: var(--wp--preset--color--off-white);
+  fill: var(--wp--preset--color--off-white);
+}
+.site-header__logo > svg:active, .site-header__logo > svg:hover {
+  stroke: var(--wp--preset--color--gold);
+  fill: var(--wp--preset--color--gold);
+}
+.site-header__overlay {
+  display: none;
+}
+@media only screen and (min-width: 56.25em) {
+  .site-header__overlay {
+    display: flex;
+    position: relative;
+    background: none;
+    padding: 0;
+    width: auto;
+  }
+}
+.site-header__overlay--show {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  background: linear-gradient(to bottom, var(--wp--preset--color--light-green), var(--wp--preset--color--dark-green));
+  z-index: 150;
+}
+.site-header__nav-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.site-header__nav-container nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (min-width: 56.25em) {
+  .site-header__nav-container nav {
+    height: 100%;
+  }
+}
+.site-header__nav-container ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  list-style: none;
+}
+@media only screen and (min-width: 56.25em) {
+  .site-header__nav-container ul {
+    flex-direction: row;
+    gap: 1rem;
+  }
+}
+.site-header__nav-container a, .site-header__nav-container a:link, .site-header__nav-container a:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  font-family: var(--wp--preset--font-family--josefin-sans-thin);
+  font-size: 3rem;
+  padding: 0.5rem 2rem;
+  border-radius: 500px;
+  border: 0.5px solid transparent;
+}
+.site-header__nav-container a:active, .site-header__nav-container a:hover {
+  transition: all 0.2s;
+  border-color: var(--wp--preset--color--light-gold);
+}
+@media only screen and (min-width: 56.25em) {
+  .site-header__toggle {
+    display: none;
+  }
+}
+.site-header__toggle--close {
+  align-self: flex-end;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

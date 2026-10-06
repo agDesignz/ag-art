@@ -7,7 +7,7 @@ return array(
 		'name' => 'agart-blocks/ag-art-header',
 		'version' => '0.1.0',
 		'title' => 'AG Art Header',
-		'category' => 'widgets',
+		'category' => 'theme',
 		'icon' => 'smiley',
 		'description' => 'Site Header.',
 		'example' => array(
@@ -17,13 +17,20 @@ return array(
 			'className' => array(
 				'type' => 'string',
 				'default' => 'site-header'
+			),
+			'icon' => array(
+				'type' => 'string',
+				'default' => 'logo'
 			)
 		),
 		'supports' => array(
 			'html' => false
 		),
-		'textdomain' => 'header',
+		'textdomain' => 'AG Art',
 		'editorScript' => 'file:./index.js',
+		'editorStyle' => 'file:./index.css',
+		'style' => 'file:./style-index.css',
+		'render' => 'file:./render.php',
 		'viewScript' => 'file:./view.js'
 	),
 	'home-grid' => array(

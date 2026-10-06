@@ -4,17 +4,21 @@
 	"name": "agart-blocks/ag-art-header",
 	"version": "0.1.0",
 	"title": "AG Art Header",
-	"category": "widgets",
+	"category": "theme",
 	"icon": "smiley",
 	"description": "Site Header.",
 	"example": {},
 	"attributes": {
-		"className": { "type": "string", "default": "site-header" }
+		"className": { "type": "string", "default": "site-header" },
+		"icon": { "type": "string", "default": "logo" }
 	},
 	"supports": {
 		"html": false
 	},
-	"textdomain": "header",
+	"textdomain": "AG Art",
 	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php",
 	"viewScript": "file:./view.js"
 }

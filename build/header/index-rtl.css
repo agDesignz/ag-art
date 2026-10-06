@@ -1,11 +1,24 @@
 /*!***********************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/header/editor.scss ***!
   \***********************************************************************************************************************************************************************************************************************************************/
-/**
- * The following styles get applied inside the editor only.
- *
- * Replace them with your own styles or remove the file completely.
- */
-.wp-block-create-block-header {
-  border: 1px dotted #f00;
+.site-header {
+  display: flex;
+  justify-content: space-between;
+}
+.site-header__logo {
+  height: 6rem;
+}
+@media only screen and (min-width: 56.25em) {
+  .site-header__logo {
+    height: 10rem;
+  }
+}
+.site-header__logo > svg {
+  height: 100%;
+  stroke: var(--wp--preset--color--off-white);
+  fill: var(--wp--preset--color--off-white);
+}
+.site-header__logo > svg:active, .site-header__logo > svg:hover {
+  stroke: var(--wp--preset--color--gold);
+  fill: var(--wp--preset--color--gold);
 }

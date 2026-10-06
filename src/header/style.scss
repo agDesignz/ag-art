@@ -1,0 +1,135 @@
+@use "../../css/abstracts/variables" as v;
+@use "../../css/abstracts/mixins" as m;
+
+.site-header {
+	width: 100%;
+
+	&__wrapper {
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+		align-items: center;
+
+		&--fixed {
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			z-index: 150;
+			background-color: v.$green;
+			padding: 2rem;
+		}
+	}
+
+	&__logo {
+		height: 4.5rem;
+
+		@include m.respond(bp-sm) {
+			height: 6rem;
+		}
+
+		@include m.respond(bp-md) {
+			height: 10rem;
+		}
+
+		& > svg {
+			// width: 100%;
+			height: 100%;
+			stroke: v.$offWhite;
+			fill: v.$offWhite;
+
+			&:active,
+			&:hover {
+				stroke: v.$gold;
+				fill: v.$gold;
+			}
+		}
+	}
+
+	&__overlay {
+		display: none;
+
+		@include m.respond(bp-md) {
+			display: flex;
+			position: relative;
+			background: none;
+			padding: 0;
+			width: auto;
+		}
+
+		&--show {
+			display: flex;
+			flex-direction: column;
+			padding: 2rem;
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			height: 100vh;
+			background: v.$bg-green;
+			z-index: 150;
+		}
+	}
+
+	&__nav-container {
+		flex-grow: 1;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		& nav {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+
+			@include m.respond(bp-md) {
+				height: 100%;
+			}
+		}
+
+		& ul {
+			display: flex;
+			flex-direction: column;
+			gap: 2rem;
+			list-style: none;
+
+			@include m.respond(bp-md) {
+				flex-direction: row;
+				gap: 1rem;
+			}
+		}
+
+		& a {
+			&,
+			&:link,
+			&:visited {
+				display: inline-block;
+				text-decoration: none;
+				color: inherit;
+				font-family: v.$font-tertiary;
+				font-size: 3rem;
+				padding: 0.5rem 2rem;
+				border-radius: 500px;
+				border: 0.5px solid transparent;
+			}
+
+			&:active,
+			&:hover {
+				transition: all 0.2s;
+				border-color: v.$lightGold;
+			}
+		}
+	}
+
+	&__toggle {
+		@include m.respond(bp-md) {
+			display: none;
+		}
+
+		&--close {
+			align-self: flex-end;
+		}
+	}
+}

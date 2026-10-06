@@ -1,9 +1,36 @@
-/**
- * The following styles get applied inside the editor only.
- *
- * Replace them with your own styles or remove the file completely.
- */
+@use "../../css/abstracts/variables" as v;
+@use "../../css/abstracts/mixins" as m;
 
-.wp-block-create-block-header {
-	border: 1px dotted #f00;
+.site-header {
+	display: flex;
+	justify-content: space-between;
+
+	&__brand {
+		// display: flex;
+		// flex-direction: column;
+		// gap: 2rem;
+		// font-family: v.$font-primary;
+		// font-weight: 100;
+	}
+
+	&__logo {
+		height: 6rem;
+
+		@include m.respond(bp-md) {
+			height: 10rem;
+		}
+
+		& > svg {
+			// width: 100%;
+			height: 100%;
+			stroke: v.$offWhite;
+			fill: v.$offWhite;
+
+			&:active,
+			&:hover {
+				stroke: v.$gold;
+				fill: v.$gold;
+			}
+		}
+	}
 }
