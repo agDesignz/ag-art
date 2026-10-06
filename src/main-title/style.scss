@@ -1,0 +1,24 @@
+@use "../../css/abstracts/variables" as v;
+@use "../../css/abstracts/mixins" as m;
+
+.main-title {
+	text-align: center;
+	font-family: v.$font-display;
+	font-size: 5rem;
+
+	@include m.respond(bp-sm) {
+		font-size: 8rem;
+	}
+
+	@include m.respond(bp-md) {
+		font-size: 10rem;
+	}
+
+	@include m.respond(bp-lg) {
+		font-size: 12rem;
+	}
+
+	@include m.respond(bp-xl) {
+		font-size: 14rem;
+	}
+}

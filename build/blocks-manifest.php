@@ -85,5 +85,27 @@ return array(
 		),
 		'textdomain' => 'header',
 		'editorScript' => 'file:./index.js'
+	),
+	'main-title' => array(
+		'$schema' => 'https://schemas.wp.org/trunk/block.json',
+		'apiVersion' => 3,
+		'name' => 'agart-blocks/main-title',
+		'version' => '0.1.0',
+		'title' => 'AG Art Main Title',
+		'category' => 'widgets',
+		'icon' => 'smiley',
+		'description' => 'Main main title',
+		'example' => array(
+			
+		),
+		'supports' => array(
+			'html' => false
+		),
+		'textdomain' => 'AG Art',
+		'editorScript' => 'file:./index.js',
+		'editorStyle' => 'file:./index.css',
+		'style' => 'file:./style-index.css',
+		'render' => 'file:./render.php',
+		'viewScript' => 'file:./view.js'
 	)
 );
