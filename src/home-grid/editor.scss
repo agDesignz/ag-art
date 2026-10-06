@@ -1,5 +1,5 @@
-@use "../abstracts/variables" as v;
-@use "../abstracts/mixins" as m;
+@use "../../css/abstracts/variables" as v;
+@use "../../css/abstracts/mixins" as m;
 
 .home-grid {
 	gap: v.$gap-md;

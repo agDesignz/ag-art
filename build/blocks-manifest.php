@@ -62,7 +62,7 @@ return array(
 		'supports' => array(
 			'html' => false
 		),
-		'textdomain' => 'agart-blocks',
+		'textdomain' => 'AG Art',
 		'editorScript' => 'file:./index.js',
 		'editorStyle' => 'file:./index.css',
 		'style' => 'file:./style-index.css',
