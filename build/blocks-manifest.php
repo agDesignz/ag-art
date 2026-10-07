@@ -33,6 +33,37 @@ return array(
 		'render' => 'file:./render.php',
 		'viewScript' => 'file:./view.js'
 	),
+	'home-body' => array(
+		'$schema' => 'https://schemas.wp.org/trunk/block.json',
+		'apiVersion' => 3,
+		'name' => 'agart-blocks/ag-art-home-body',
+		'version' => '0.1.0',
+		'title' => 'AG Art Home Body',
+		'category' => 'theme',
+		'icon' => 'smiley',
+		'description' => 'Home Page Body Section.',
+		'example' => array(
+			
+		),
+		'attributes' => array(
+			'className' => array(
+				'type' => 'string',
+				'default' => 'home-body'
+			),
+			'icon' => array(
+				'type' => 'string',
+				'default' => 'logo'
+			)
+		),
+		'supports' => array(
+			'html' => false
+		),
+		'textdomain' => 'AG Art',
+		'editorScript' => 'file:./index.js',
+		'editorStyle' => 'file:./index.css',
+		'style' => 'file:./style-index.css',
+		'viewScript' => 'file:./view.js'
+	),
 	'home-grid' => array(
 		'$schema' => 'https://schemas.wp.org/trunk/block.json',
 		'apiVersion' => 3,
