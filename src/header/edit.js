@@ -8,19 +8,27 @@ export default function Edit() {
 	const blockProps = useBlockProps({ className: "site-header" });
 	return (
 		<header {...blockProps}>
-			<a className="site-header__logo" href="/" aria-label="Home">
-				<LogoIcon />
-			</a>
+			<div className="site-header__wrapper">
+				<a className="site-header__logo" href="/" aria-label="Home">
+					<LogoIcon />
+				</a>
 
-			{/* Navigation Menu */}
-			<div className="site-header__menu">
-				<InnerBlocks
-					template={TEMPLATE}
-					allowedBlocks={["core/navigation"]}
-					templateLock="insert"
-				/>
+				{/* Navigation Menu */}
+				<div className="site-header__overlay">
+					<div className="site-header__toggle site-header__toggle--close">
+						C
+					</div>
+					<div className="site-header__nav-container">
+						<InnerBlocks
+							template={TEMPLATE}
+							allowedBlocks={["core/navigation"]}
+							templateLock="insert"
+							className="site-header__nav-container"
+						/>
+					</div>
+				</div>
+				<div className="site-header__toggle site-header__toggle--open">H</div>
 			</div>
-			<div className="site-header__toggle">H</div>
 		</header>
 	);
 }
