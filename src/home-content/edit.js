@@ -34,7 +34,9 @@ export default function Edit() {
 				<br />
 				In Pen &amp; Ink
 			</h2>
-			<button>More Here</button>
+			<a class="btn btn--gold" href="http://localhost:8080/contact/">
+				Learn More
+			</a>
 		</div>
 	);
 }

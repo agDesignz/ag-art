@@ -81,17 +81,41 @@ body {
   }
 }
 
-.heading-3 {
+.heading-2 {
   font-size: 3rem;
   font-weight: 400;
   line-height: 1.2;
   letter-spacing: 1px;
+  font-family: var(--wp--preset--font-family--eb-garamond);
 }
 @media only screen and (min-width: 62.5em) {
-  .heading-3 {
+  .heading-2 {
     font-size: 2.5rem;
     line-height: 1.5;
   }
+}
+
+.btn, .btn:link, .btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--wp--preset--color--dark-green);
+  padding: 1.7rem 3rem;
+  transition: all 0.2s;
+  font-family: var(--wp--preset--font-family--dyer-arts-and-crafts);
+  font-size: 2.6rem;
+}
+@media only screen and (min-width: 62.5em) {
+  .btn, .btn:link, .btn:visited {
+    padding: 2.4rem 3.2rem;
+  }
+}
+.btn--gold {
+  background-color: var(--wp--preset--color--gold);
+  border: 1px solid var(--wp--preset--color--gold);
+}
+.btn--gold:hover, .btn--gold:active, .btn--gold:focus {
+  background-color: var(--wp--preset--color--light-green);
+  color: var(--wp--preset--color--gold);
 }
 
 /*# sourceMappingURL=index.css.map*/
