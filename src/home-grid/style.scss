@@ -2,13 +2,13 @@
 @use "../../css/abstracts/mixins" as m;
 
 .home-grid {
-	gap: v.$gap-sm;
+	gap: 1rem;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(2, 1fr);
 
-	&__image {
-		position: relative;
+	@include m.respond(bp-sm) {
+		gap: 1.5rem;
 	}
 
 	@include m.respond(bp-md) {
@@ -18,8 +18,16 @@
 		max-width: 140rem;
 		grid-template-columns: repeat(5, 1fr);
 		grid-template-rows: repeat(2, 1fr);
+	}
 
-		&__image {
+	@include m.respond(bp-md) {
+		gap: 2rem;
+	}
+
+	&__image {
+		position: relative;
+
+		@include m.respond(bp-md) {
 			&--1 {
 				grid-row: 1/-1;
 				grid-column: 1/3;

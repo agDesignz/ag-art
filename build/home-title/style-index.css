@@ -5,6 +5,7 @@
   text-align: center;
   font-family: var(--wp--preset--font-family--dyer-arts-and-crafts);
   font-size: 3.4rem;
+  line-height: 1;
 }
 @media only screen and (min-width: 21.875em) {
   .home-title {

@@ -5,6 +5,7 @@
 	text-align: center;
 	font-family: v.$font-display;
 	font-size: 3.4rem;
+	line-height: 1;
 
 	@include m.respond(bp-xs) {
 		font-size: 5rem;

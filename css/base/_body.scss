@@ -15,13 +15,17 @@
 	position: relative;
 	gap: 4rem;
 
-	//   @include m.respond(bp-md) {
-	//     padding: 5rem 5rem 0 5rem;
-	//   }
+	@include m.respond(bp-md) {
+		gap: 6rem;
+	}
 
-	//   @include m.respond(bp-xl) {
-	//     padding: 5rem 12rem 0 12rem;
-	//   }
+	@include m.respond(bp-lg) {
+		gap: 9rem;
+	}
+
+	@include m.respond(bb-xl) {
+		gap: 12rem;
+	}
 }
 
 // .header-block {

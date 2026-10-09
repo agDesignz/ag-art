@@ -7,7 +7,7 @@
 	gap: 2rem;
 	width: 100%;
 
-	@include m.respond(bp-mn) {
-		gap: 2;
+	@include m.respond(bp-sm) {
+		gap: 5rem;
 	}
 }
