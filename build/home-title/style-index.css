@@ -1,0 +1,35 @@
+/*!**************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/home-title/style.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************/
+.home-title {
+  text-align: center;
+  font-family: var(--wp--preset--font-family--dyer-arts-and-crafts);
+  font-size: 3.4rem;
+}
+@media only screen and (min-width: 21.875em) {
+  .home-title {
+    font-size: 5rem;
+  }
+}
+@media only screen and (min-width: 37.5em) {
+  .home-title {
+    font-size: 8rem;
+  }
+}
+@media only screen and (min-width: 56.25em) {
+  .home-title {
+    font-size: 10rem;
+  }
+}
+@media only screen and (min-width: 62.5em) {
+  .home-title {
+    font-size: 12rem;
+  }
+}
+@media only screen and (min-width: 75em) {
+  .home-title {
+    font-size: 14rem;
+  }
+}
+
+/*# sourceMappingURL=style-index.css.map*/

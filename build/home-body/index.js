@@ -21,15 +21,17 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const TEMPLATE = [["agart-blocks/main-title"], ["agart-blocks/home-grid"]];
+const TEMPLATE = [["agart-blocks/home-title"], ["agart-blocks/home-grid"], ["agart-blocks/home-content"]];
 function Edit({
   attributes
 }) {
-  const blockProps = (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.useBlockProps)();
+  const blockProps = (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.useBlockProps)({
+    className: attributes.customClass
+  });
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("section", {
     ...blockProps,
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.InnerBlocks, {
-      allowedBlocks: ["agart-blocks/main-title", "agart-blocks/home-grid"],
+      allowedBlocks: ["agart-blocks/home-title", "agart-blocks/home-grid", "agart-blocks/home-content"],
       template: TEMPLATE,
       templateLock: "insert"
     })
@@ -79,8 +81,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__);
 
 
-function save() {
-  const blockProps = _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_0__.useBlockProps.save();
+function save({
+  attributes
+}) {
+  const blockProps = _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_0__.useBlockProps.save({
+    className: attributes.customClass
+  });
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("section", {
     ...blockProps,
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_0__.InnerBlocks.Content, {})
@@ -147,7 +153,7 @@ module.exports = window["wp"]["i18n"];
   \**********************************/
 (module) {
 
-module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"agart-blocks/ag-art-home-body","version":"0.1.0","title":"AG Art Home Body","category":"theme","icon":"smiley","description":"Home Page Body Section.","example":{},"attributes":{"className":{"type":"string","default":"home-body"},"icon":{"type":"string","default":"logo"}},"supports":{"html":false},"textdomain":"AG Art","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","viewScript":"file:./view.js"}');
+module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"agart-blocks/ag-art-home-body","version":"0.1.0","title":"AG Art Home Body","category":"theme","icon":"menu-alt3","description":"Home Page Body Section.","example":{},"attributes":{"customClass":{"type":"string","default":"home-body"}},"supports":{"html":false,"className":true},"textdomain":"AG Art","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css"}');
 
 /***/ }
 

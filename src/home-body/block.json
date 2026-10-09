@@ -5,19 +5,18 @@
 	"version": "0.1.0",
 	"title": "AG Art Home Body",
 	"category": "theme",
-	"icon": "smiley",
+	"icon": "menu-alt3",
 	"description": "Home Page Body Section.",
 	"example": {},
 	"attributes": {
-		"className": { "type": "string", "default": "home-body" },
-		"icon": { "type": "string", "default": "logo" }
+		"customClass": { "type": "string", "default": "home-body" }
 	},
 	"supports": {
-		"html": false
+		"html": false,
+		"className": true
 	},
 	"textdomain": "AG Art",
 	"editorScript": "file:./index.js",
 	"editorStyle": "file:./index.css",
-	"style": "file:./style-index.css",
-	"viewScript": "file:./view.js"
+	"style": "file:./style-index.css"
 }

@@ -1,12 +1,12 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 3,
-	"name": "agart-blocks/main-title",
+	"name": "agart-blocks/home-content",
 	"version": "0.1.0",
-	"title": "AG Art Main Title",
+	"title": "AG Art Home Content",
 	"category": "widgets",
-	"icon": "smiley",
-	"description": "Main main title",
+	"icon": "insert",
+	"description": "Home page content",
 	"example": {},
 	"supports": {
 		"html": false

@@ -27,5 +27,14 @@ import { useBlockProps } from "@wordpress/block-editor";
  * @return {Element} Element to render.
  */
 export default function Edit() {
-	return <h1 class="main-title">Alex Geer Art</h1>;
+	return (
+		<div className="home-content">
+			<h2 className="home-content__subtitle">
+				Custom House Portraits
+				<br />
+				In Pen &amp; Ink
+			</h2>
+			<button>More Here</button>
+		</div>
+	);
 }
