@@ -53,8 +53,10 @@ function Edit() {
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("h2", {
       className: "home-content__subtitle",
       children: ["Custom House Portraits", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("br", {}), "In Pen & Ink"]
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("button", {
-      children: "More Here"
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("a", {
+      class: "btn btn--gold",
+      href: "http://localhost:8080/contact/",
+      children: "Learn More"
     })]
   });
 }
@@ -127,8 +129,10 @@ function save() {
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h2", {
       className: "home-content__subtitle",
       children: ["Custom House Portraits", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("br", {}), "In Pen & Ink"]
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-      children: "More Here"
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
+      class: "btn btn--gold",
+      href: "http://localhost:8080/contact/",
+      children: "Learn More"
     })]
   });
 }
