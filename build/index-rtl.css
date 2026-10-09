@@ -49,6 +49,16 @@ figure > img {
   position: relative;
   gap: 4rem;
 }
+@media only screen and (min-width: 56.25em) {
+  .wp-site-blocks {
+    gap: 6rem;
+  }
+}
+@media only screen and (min-width: 62.5em) {
+  .wp-site-blocks {
+    gap: 9rem;
+  }
+}
 
 html,
 body,
