@@ -1,0 +1,10 @@
+@use "../../css/abstracts/variables" as v;
+
+.site-footer {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 10rem;
+	background-color: v.$darkGreen;
+}
