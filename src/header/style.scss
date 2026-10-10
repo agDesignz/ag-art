@@ -3,6 +3,7 @@
 
 .site-header {
 	width: 100%;
+	padding: 2rem;
 
 	&__wrapper {
 		display: flex;
@@ -26,10 +27,6 @@
 
 		@include m.respond(bp-sm) {
 			height: 6rem;
-		}
-
-		@include m.respond(bp-md) {
-			height: 10rem;
 		}
 
 		& > svg {
@@ -111,14 +108,17 @@
 				font-family: v.$font-tertiary;
 				font-size: 3rem;
 				padding: 0.5rem 2rem;
-				border-radius: 500px;
+				// border-radius: 500px;
 				border: 0.5px solid transparent;
 			}
 
 			&:active,
-			&:hover {
-				transition: all 0.2s;
+			&:hover,
+			&:focus {
+				transition: all 0.3s;
 				border-color: v.$lightGold;
+				color: v.$gold;
+				background-color: v.$green;
 			}
 		}
 	}

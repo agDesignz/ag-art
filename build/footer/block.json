@@ -1,0 +1,28 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "agart-blocks/ag-art-footer",
+  "version": "0.1.0",
+  "title": "AG Art Footer",
+  "category": "theme",
+  "icon": "smiley",
+  "description": "Site Footer.",
+  "example": {},
+  "attributes": {
+    "className": {
+      "type": "string",
+      "default": "site-footer"
+    },
+    "icon": {
+      "type": "string",
+      "default": "logo"
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "AG Art",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

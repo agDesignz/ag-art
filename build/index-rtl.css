@@ -44,7 +44,6 @@ figure > img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2rem 2rem 0 2rem;
   min-height: 100vh;
   position: relative;
   gap: 4rem;

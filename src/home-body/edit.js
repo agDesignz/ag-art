@@ -10,7 +10,7 @@ export default function Edit({ attributes }) {
 	const blockProps = useBlockProps({ className: attributes.customClass });
 
 	return (
-		<section {...blockProps}>
+		<main {...blockProps}>
 			<InnerBlocks
 				allowedBlocks={[
 					"agart-blocks/home-title",
@@ -20,6 +20,6 @@ export default function Edit({ attributes }) {
 				template={TEMPLATE}
 				templateLock="insert"
 			/>
-		</section>
+		</main>
 	);
 }

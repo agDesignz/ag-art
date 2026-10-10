@@ -45,7 +45,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _wordpress_i18n__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @wordpress/block-editor */ "@wordpress/block-editor");
 /* harmony import */ var _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _editor_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./editor.scss */ "./src/header/editor.scss");
+/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style.scss */ "./src/header/style.scss");
 /* harmony import */ var _assets_icons_logo_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../assets/icons/logo.svg */ "./assets/icons/logo.svg");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-runtime */ "react/jsx-runtime");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__);
@@ -163,18 +163,6 @@ function save() {
 
 /***/ },
 
-/***/ "./src/header/editor.scss"
-/*!********************************!*\
-  !*** ./src/header/editor.scss ***!
-  \********************************/
-(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-__webpack_require__.r(__webpack_exports__);
-// extracted by mini-css-extract-plugin
-
-
-/***/ },
-
 /***/ "./src/header/style.scss"
 /*!*******************************!*\
   !*** ./src/header/style.scss ***!
@@ -243,7 +231,7 @@ module.exports = window["wp"]["i18n"];
   \*******************************/
 (module) {
 
-module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"agart-blocks/ag-art-header","version":"0.1.0","title":"AG Art Header","category":"theme","icon":"smiley","description":"Site Header.","example":{},"attributes":{"className":{"type":"string","default":"site-header"},"icon":{"type":"string","default":"logo"}},"supports":{"html":false},"textdomain":"AG Art","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","render":"file:./render.php","viewScript":"file:./view.js"}');
+module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"agart-blocks/ag-art-header","version":"0.1.0","title":"AG Art Header","category":"theme","icon":"smiley","description":"Site Header.","example":{},"attributes":{"className":{"type":"string","default":"site-header"},"icon":{"type":"string","default":"logo"}},"supports":{"html":false},"textdomain":"AG Art","editorScript":"file:./index.js","style":"file:./style-index.css","render":"file:./render.php","viewScript":"file:./view.js"}');
 
 /***/ }
 

@@ -12,7 +12,6 @@
 	}
 
 	@include m.respond(bp-md) {
-		margin: auto auto;
 		aspect-ratio: 10/3;
 		width: 90%;
 		max-width: 140rem;

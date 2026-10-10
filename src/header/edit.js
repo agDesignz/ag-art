@@ -1,6 +1,6 @@
 import { __ } from "@wordpress/i18n";
 import { InnerBlocks, useBlockProps } from "@wordpress/block-editor";
-import "./editor.scss";
+import "./style.scss";
 import { ReactComponent as LogoIcon } from "../../assets/icons/logo.svg";
 const TEMPLATE = [["core/navigation", { overlayMenu: "never" }]];
 

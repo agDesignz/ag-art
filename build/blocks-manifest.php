@@ -1,6 +1,36 @@
 <?php
 // This file is generated. Do not modify it manually.
 return array(
+	'footer' => array(
+		'$schema' => 'https://schemas.wp.org/trunk/block.json',
+		'apiVersion' => 3,
+		'name' => 'agart-blocks/ag-art-footer',
+		'version' => '0.1.0',
+		'title' => 'AG Art Footer',
+		'category' => 'theme',
+		'icon' => 'smiley',
+		'description' => 'Site Footer.',
+		'example' => array(
+			
+		),
+		'attributes' => array(
+			'className' => array(
+				'type' => 'string',
+				'default' => 'site-footer'
+			),
+			'icon' => array(
+				'type' => 'string',
+				'default' => 'logo'
+			)
+		),
+		'supports' => array(
+			'html' => false
+		),
+		'textdomain' => 'AG Art',
+		'editorScript' => 'file:./index.js',
+		'style' => 'file:./style-index.css',
+		'viewScript' => 'file:./view.js'
+	),
 	'header' => array(
 		'$schema' => 'https://schemas.wp.org/trunk/block.json',
 		'apiVersion' => 3,
@@ -28,7 +58,6 @@ return array(
 		),
 		'textdomain' => 'AG Art',
 		'editorScript' => 'file:./index.js',
-		'editorStyle' => 'file:./index.css',
 		'style' => 'file:./style-index.css',
 		'render' => 'file:./render.php',
 		'viewScript' => 'file:./view.js'

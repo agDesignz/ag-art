@@ -3,6 +3,7 @@
   \**********************************************************************************************************************************************************************************************************************************************/
 .site-header {
   width: 100%;
+  padding: 2rem;
 }
 .site-header__wrapper {
   display: flex;
@@ -25,11 +26,6 @@
 @media only screen and (min-width: 37.5em) {
   .site-header__logo {
     height: 6rem;
-  }
-}
-@media only screen and (min-width: 56.25em) {
-  .site-header__logo {
-    height: 10rem;
   }
 }
 .site-header__logo > svg {
@@ -102,12 +98,13 @@
   font-family: var(--wp--preset--font-family--josefin-sans-thin);
   font-size: 3rem;
   padding: 0.5rem 2rem;
-  border-radius: 500px;
   border: 0.5px solid transparent;
 }
-.site-header__nav-container a:active, .site-header__nav-container a:hover {
-  transition: all 0.2s;
+.site-header__nav-container a:active, .site-header__nav-container a:hover, .site-header__nav-container a:focus {
+  transition: all 0.3s;
   border-color: var(--wp--preset--color--light-gold);
+  color: var(--wp--preset--color--gold);
+  background-color: var(--wp--preset--color--green);
 }
 @media only screen and (min-width: 56.25em) {
   .site-header__toggle {
