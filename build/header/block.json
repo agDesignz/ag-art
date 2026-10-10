@@ -13,9 +13,17 @@
       "type": "string",
       "default": "site-header"
     },
-    "icon": {
+    "logo": {
       "type": "string",
       "default": "logo"
+    },
+    "hamburger": {
+      "type": "string",
+      "default": "house-hamburger"
+    },
+    "close": {
+      "type": "string",
+      "default": "house-close"
     }
   },
   "supports": {

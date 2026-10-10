@@ -22,13 +22,7 @@
 		}
 	}
 
-	&__logo {
-		height: 4.5rem;
-
-		@include m.respond(bp-sm) {
-			height: 6rem;
-		}
-
+	&__icon {
 		& > svg {
 			// width: 100%;
 			height: 100%;
@@ -40,6 +34,30 @@
 				stroke: v.$gold;
 				fill: v.$gold;
 			}
+		}
+
+		&--logo {
+			height: 4.5rem;
+
+			@include m.respond(bp-sm) {
+				height: 6rem;
+			}
+		}
+
+		&--toggle {
+			height: 3rem;
+			background: none;
+			border: none;
+			box-shadow: none;
+			cursor: pointer;
+
+			@include m.respond(bp-md) {
+				display: none;
+			}
+		}
+
+		&--close {
+			align-self: flex-end;
 		}
 	}
 
@@ -120,16 +138,6 @@
 				color: v.$gold;
 				background-color: v.$green;
 			}
-		}
-	}
-
-	&__toggle {
-		@include m.respond(bp-md) {
-			display: none;
-		}
-
-		&--close {
-			align-self: flex-end;
 		}
 	}
 }

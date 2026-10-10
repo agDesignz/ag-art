@@ -2,14 +2,6 @@
 /*!****************************!*\
   !*** ./src/header/view.js ***!
   \****************************/
-// const toggleButtons = document.querySelectorAll(".site-header__toggle");
-// const nav = document.querySelector(".site-header__overlay");
-// toggleButtons.forEach((toggleButton) => {
-// 	toggleButton.addEventListener("click", () => {
-// 		nav.classList.toggle("site-header__overlay--show");
-// 	});
-// });
-
 class StickyHeader {
   constructor() {
     this.root = document.querySelector(".site-header");
@@ -26,8 +18,7 @@ class StickyHeader {
   events() {
     this.headerObserver.observe(this.root);
     this.wrapper.addEventListener("click", e => {
-      console.log("clicked");
-      e.target.classList.contains("site-header__toggle") && this.overlay.classList.toggle("site-header__overlay--show");
+      e.target.closest(".site-header__icon--toggle") && this.overlay.classList.toggle("site-header__overlay--show");
     });
   }
   stick(entries) {

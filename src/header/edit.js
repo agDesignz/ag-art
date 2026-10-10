@@ -2,6 +2,8 @@ import { __ } from "@wordpress/i18n";
 import { InnerBlocks, useBlockProps } from "@wordpress/block-editor";
 import "./style.scss";
 import { ReactComponent as LogoIcon } from "../../assets/icons/logo.svg";
+import { ReactComponent as HamburgerIcon } from "../../assets/icons/house-hamburger.svg";
+import { ReactComponent as CloseIcon } from "../../assets/icons/house-close.svg";
 const TEMPLATE = [["core/navigation", { overlayMenu: "never" }]];
 
 export default function Edit() {
@@ -9,15 +11,19 @@ export default function Edit() {
 	return (
 		<header {...blockProps}>
 			<div className="site-header__wrapper">
-				<a className="site-header__logo" href="/" aria-label="Home">
+				<a
+					className="site-header__icon site-header__icon--logo"
+					href="/"
+					aria-label="Home"
+				>
 					<LogoIcon />
 				</a>
 
 				{/* Navigation Menu */}
 				<div className="site-header__overlay">
-					<div className="site-header__toggle site-header__toggle--close">
-						C
-					</div>
+					<button className="site-header__toggle site-header__toggle--close site-header__icon site-header__icon--close">
+						<CloseIcon />
+					</button>
 					<div className="site-header__nav-container">
 						<InnerBlocks
 							template={TEMPLATE}
@@ -27,7 +33,9 @@ export default function Edit() {
 						/>
 					</div>
 				</div>
-				<div className="site-header__toggle site-header__toggle--open">H</div>
+				<button className="site-header__toggle site-header__toggle--open site-header__icon site-header__icon--hamburger">
+					<HamburgerIcon />
+				</button>
 			</div>
 		</header>
 	);

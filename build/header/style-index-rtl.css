@@ -20,22 +20,37 @@
   background-color: var(--wp--preset--color--green);
   padding: 2rem;
 }
-.site-header__logo {
-  height: 4.5rem;
-}
-@media only screen and (min-width: 37.5em) {
-  .site-header__logo {
-    height: 6rem;
-  }
-}
-.site-header__logo > svg {
+.site-header__icon > svg {
   height: 100%;
   stroke: var(--wp--preset--color--off-white);
   fill: var(--wp--preset--color--off-white);
 }
-.site-header__logo > svg:active, .site-header__logo > svg:hover {
+.site-header__icon > svg:active, .site-header__icon > svg:hover {
   stroke: var(--wp--preset--color--gold);
   fill: var(--wp--preset--color--gold);
+}
+.site-header__icon--logo {
+  height: 4.5rem;
+}
+@media only screen and (min-width: 37.5em) {
+  .site-header__icon--logo {
+    height: 6rem;
+  }
+}
+.site-header__icon--toggle {
+  height: 3rem;
+  background: none;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+}
+@media only screen and (min-width: 56.25em) {
+  .site-header__icon--toggle {
+    display: none;
+  }
+}
+.site-header__icon--close {
+  align-self: flex-end;
 }
 .site-header__overlay {
   display: none;
@@ -105,12 +120,4 @@
   border-color: var(--wp--preset--color--light-gold);
   color: var(--wp--preset--color--gold);
   background-color: var(--wp--preset--color--green);
-}
-@media only screen and (min-width: 56.25em) {
-  .site-header__toggle {
-    display: none;
-  }
-}
-.site-header__toggle--close {
-  align-self: flex-end;
 }

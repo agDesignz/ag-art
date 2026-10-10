@@ -48,9 +48,17 @@ return array(
 				'type' => 'string',
 				'default' => 'site-header'
 			),
-			'icon' => array(
+			'logo' => array(
 				'type' => 'string',
 				'default' => 'logo'
+			),
+			'hamburger' => array(
+				'type' => 'string',
+				'default' => 'house-hamburger'
+			),
+			'close' => array(
+				'type' => 'string',
+				'default' => 'house-close'
 			)
 		),
 		'supports' => array(

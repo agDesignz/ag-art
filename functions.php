@@ -28,10 +28,10 @@ add_action('after_setup_theme', 'editor_setup_theme');
  * @param string $slug Filename without extension (e.g. 'logo').
  */
 function my_theme_get_icon( string $slug ): string {
-	$allowed = [ 'logo', 'search', 'cart' ];
-	if ( ! in_array( $slug, $allowed, true ) ) {
-		return '';
-	}
+	// $allowed = [ 'logo', 'search', 'cart' ];
+	// if ( ! in_array( $slug, $allowed, true ) ) {
+	// 	return '';
+	// }
 
 	$path = get_theme_file_path( "assets/icons/{$slug}.svg" );
 	if ( ! is_readable( $path ) ) {

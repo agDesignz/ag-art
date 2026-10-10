@@ -10,7 +10,9 @@
 	"example": {},
 	"attributes": {
 		"className": { "type": "string", "default": "site-header" },
-		"icon": { "type": "string", "default": "logo" }
+		"logo": { "type": "string", "default": "logo" },
+		"hamburger": { "type": "string", "default": "house-hamburger" },
+		"close": { "type": "string", "default": "house-close" }
 	},
 	"supports": {
 		"html": false
