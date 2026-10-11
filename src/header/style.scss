@@ -75,7 +75,7 @@
 		&--show {
 			display: flex;
 			flex-direction: column;
-			padding: 2.5rem 2rem;
+			padding: 3.5rem 2rem;
 			position: fixed;
 			top: 0;
 			left: 0;
@@ -83,6 +83,10 @@
 			height: 100vh;
 			background: v.$bg-green;
 			z-index: 150;
+
+			@include m.respond(bp-sm) {
+				padding: 4.5rem 2rem;
+			}
 		}
 	}
 
