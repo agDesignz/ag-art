@@ -18,9 +18,8 @@ return array(
 				'type' => 'string',
 				'default' => 'site-footer'
 			),
-			'icon' => array(
-				'type' => 'string',
-				'default' => 'logo'
+			'content' => array(
+				'type' => 'string'
 			)
 		),
 		'supports' => array(
@@ -28,8 +27,7 @@ return array(
 		),
 		'textdomain' => 'AG Art',
 		'editorScript' => 'file:./index.js',
-		'style' => 'file:./style-index.css',
-		'viewScript' => 'file:./view.js'
+		'style' => 'file:./style-index.css'
 	),
 	'header' => array(
 		'$schema' => 'https://schemas.wp.org/trunk/block.json',

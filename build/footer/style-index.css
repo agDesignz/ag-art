@@ -11,5 +11,16 @@
   border-top: 0.5px solid var(--wp--preset--color--transparent-off-white);
   padding: 2rem;
 }
+.site-footer a, .site-footer a:link, .site-footer a:visited {
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--wp--preset--color--light-gold);
+  padding: 0.5rem 1rem;
+  border-radius: 50rem;
+}
+.site-footer a:hover, .site-footer a:active, .site-footer a:focus {
+  color: var(--wp--preset--color--green);
+  background-color: var(--wp--preset--color--light-gold);
+}
 
 /*# sourceMappingURL=style-index.css.map*/

@@ -1,136 +1,64 @@
 {
-  "version": 2,
-  "settings": {
-    "color": {
-      "palette": [
-        {
-          "slug": "black",
-          "color": "#090b0b",
-          "name": "Black"
-        },
-        {
-          "slug": "dark-gray",
-          "color": "#262829",
-          "name": "Dark Gray"
-        },
-        {
-          "slug": "gray",
-          "color": "#bcaa99",
-          "name": "Gray"
-        },
-        {
-          "slug": "off-white",
-          "color": "#e0e0ce",
-          "name": "Off White"
-        },
-        {
-          "slug": "transparent-off-white",
-          "color": "#f9ea9a1f",
-          "name": "Transparent Off White"
-        },
-        {
-          "slug": "white",
-          "color": "#fffce8",
-          "name": "White"
-        },
-        {
-          "slug": "light-green",
-          "color": "#0d3314",
-          "name": "Light Green"
-        },
-        {
-          "slug": "green",
-          "color": "#09230e",
-          "name": "Green"
-        },
-        {
-          "slug": "dark-green",
-          "color": "#051308",
-          "name": "Dark Green"
-        },
-        {
-          "slug": "gold",
-          "color": "#fbb13c",
-          "name": "Gold"
-        },
-        {
-          "slug": "light-gold",
-          "color": "#f9ea9a",
-          "name": "Light Gold"
-        }
-      ]
-    },
-    "typography": {
-      "fontFamilies": [
-        {
-          "name": "EB Garamond",
-          "slug": "eb-garamond",
-          "fontFamily": "EB Garamond, serif",
-          "fontFace": [
-            {
-              "fontFamily": "EB Garamond",
-              "fontWeight": "100 900",
-              "fontStyle": "normal",
-              "fontStretch": "normal",
-              "src": [
-                "file:./assets/fonts/ebgaramond-variablefont_wght-webfont.woff2",
-                "file:./assets/fonts/ebgaramond-variablefont_wght-webfont.woff"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Josefin Sans Thin",
-          "slug": "josefin-sans-thin",
-          "fontFamily": "Josefin Sans Thin, sans-serif",
-          "fontFace": [
-            {
-              "fontFamily": "Josefin Sans Thin",
-              "fontWeight": "100 900",
-              "fontStyle": "normal",
-              "fontStretch": "normal",
-              "src": [
-                "file:./assets/fonts/josefinsans-variablefont_wght-webfont.woff2",
-                "file:./assets/fonts/josefinsans-variablefont_wght-webfont.woff"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Crimson Pro",
-          "slug": "crimson-pro",
-          "fontFamily": "Crimson Pro, serif",
-          "fontFace": [
-            {
-              "fontFamily": "Crimson Pro",
-              "fontWeight": "100 900",
-              "fontStyle": "normal",
-              "fontStretch": "normal",
-              "src": [
-                "file:./assets/fonts/crimsonpro-variablefont_wght-webfont.woff2",
-                "file:./assets/fonts/crimsonpro-variablefont_wght-webfont.woff"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Dyer Arts and Crafts",
-          "slug": "dyer-arts-and-crafts",
-          "fontFamily": "Dyer Arts and Crafts, serif",
-          "fontFace": [
-            {
-              "fontFamily": "Dyer Arts and Crafts",
-              "fontWeight": "normal",
-              "fontStyle": "normal",
-              "fontStretch": "normal",
-              "src": [
-                "file:./assets/fonts/arts-and-crafts-webfont.woff2",
-                "file:./assets/fonts/arts-and-crafts-webfont.woff"
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  }
+	"version": 2,
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "black",
+					"color": "#090b0b",
+					"name": "Black"
+				},
+				{
+					"slug": "dark-gray",
+					"color": "#262829",
+					"name": "Dark Gray"
+				},
+				{
+					"slug": "gray",
+					"color": "#bcaa99",
+					"name": "Gray"
+				},
+				{
+					"slug": "off-white",
+					"color": "#e0e0ce",
+					"name": "Off White"
+				},
+				{
+					"slug": "transparent-off-white",
+					"color": "#f9ea9a1f",
+					"name": "Transparent Off White"
+				},
+				{
+					"slug": "white",
+					"color": "#fffce8",
+					"name": "White"
+				},
+				{
+					"slug": "light-green",
+					"color": "#0d3314",
+					"name": "Light Green"
+				},
+				{
+					"slug": "green",
+					"color": "#09230e",
+					"name": "Green"
+				},
+				{
+					"slug": "dark-green",
+					"color": "#051308",
+					"name": "Dark Green"
+				},
+				{
+					"slug": "gold",
+					"color": "#fbb13c",
+					"name": "Gold"
+				},
+				{
+					"slug": "light-gold",
+					"color": "#f9ea9a",
+					"name": "Light Gold"
+				}
+			]
+		}
+	}
 }

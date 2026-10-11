@@ -10,13 +10,12 @@
 	"example": {},
 	"attributes": {
 		"className": { "type": "string", "default": "site-footer" },
-		"icon": { "type": "string", "default": "logo" }
+		"content": { "type": "string" }
 	},
 	"supports": {
 		"html": false
 	},
 	"textdomain": "AG Art",
 	"editorScript": "file:./index.js",
-	"style": "file:./style-index.css",
-	"viewScript": "file:./view.js"
+	"style": "file:./style-index.css"
 }

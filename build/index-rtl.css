@@ -1,6 +1,103 @@
 /*!**************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./css/main.scss ***!
   \**************************************************************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: "EB Garamond";
+  src: url(fonts/ebgaramond-regular.268b824f.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "EB Garamond";
+  src: url(fonts/ebgaramond-medium.418eaa3b.woff2) format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "EB Garamond";
+  src: url(fonts/ebgaramond-semibold.26bdfe4b.woff2) format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "EB Garamond";
+  src: url(fonts/ebgaramond-bold.550aa388.woff2) format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Josefin Sans Thin";
+  src: url(fonts/josefinsans-thin.8ca621af.woff2) format("woff2") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Josefin Sans";
+  src: url(fonts/josefinsans-extralight.63aaea8f.woff2) format("woff2");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Josefin Sans";
+  src: url(fonts/josefinsans-light.97204e84.woff2) format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Josefin Sans";
+  src: url(fonts/josefinsans-regular.ee0a0d90.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Josefin Sans";
+  src: url(fonts/josefinsans-medium.09e8af79.woff2) format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Crimson Pro";
+  src: url(fonts/crimsonpro-extralight.0a418bb2.woff2) format("woff2");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Crimson Pro";
+  src: url(fonts/crimsonpro-light.a18b58bb.woff2) format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Crimson Pro";
+  src: url(fonts/crimsonpro-medium.7f701b39.woff2) format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Crimson Pro";
+  src: url(fonts/crimsonpro-semibold.48fe04e6.woff2) format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Crimson Pro";
+  src: url(fonts/crimsonpro-bold.227e33f3.woff2) format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Crimson Pro";
+  src: url(fonts/crimsonpro-regular.34e16894.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Dyer Arts and Crafts";
+  src: url(fonts/arts-and-crafts-webfont.24a97810.woff2) format("woff2"), url(fonts/arts-and-crafts-webfont.9edda990.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
 *,
 *::before,
 *::after {
@@ -71,14 +168,14 @@ h6 {
 }
 
 body {
-  font-family: var(--wp--preset--font-family--crimson-pro);
+  font-family: "Crimson Pro", serif;
   font-size: 2rem;
   font-weight: 400;
   color: var(--wp--preset--color--off-white);
 }
 
 .heading-1 {
-  font-family: var(--wp--preset--font-family--dyer-arts-and-crafts);
+  font-family: "Dyer Arts and Crafts", serif;
   font-weight: 500;
   font-size: 3.6rem;
   letter-spacing: 1.2px;
@@ -95,7 +192,7 @@ body {
   font-weight: 400;
   line-height: 1.2;
   letter-spacing: 1px;
-  font-family: var(--wp--preset--font-family--eb-garamond);
+  font-family: "EB Garamond", serif;
 }
 @media only screen and (min-width: 62.5em) {
   .heading-2 {
@@ -110,7 +207,7 @@ body {
   color: var(--wp--preset--color--dark-green);
   padding: 1.7rem 3rem;
   transition: all 0.2s;
-  font-family: var(--wp--preset--font-family--dyer-arts-and-crafts);
+  font-family: "Dyer Arts and Crafts", serif;
   font-size: 2.6rem;
 }
 @media only screen and (min-width: 62.5em) {

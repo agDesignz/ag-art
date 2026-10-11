@@ -1,9 +1,10 @@
-export default function save() {
+import { RichText, useBlockProps } from "@wordpress/block-editor";
+
+export default function save({ attributes }) {
+	const blockProps = useBlockProps.save({ className: "site-footer" });
 	return (
-		<footer className="site-footer">
-			<small className="site-footer__small-text">
-				Site designed by the artist. Alex Geer Dev
-			</small>
+		<footer {...blockProps}>
+			<RichText.Content value={attributes.content} tagName="small" />
 		</footer>
 	);
 }

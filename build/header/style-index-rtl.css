@@ -116,10 +116,11 @@
   display: inline-block;
   text-decoration: none;
   color: inherit;
-  font-family: var(--wp--preset--font-family--josefin-sans-thin);
+  font-family: "Josefin Sans", sans-serif;
   font-size: 5rem;
+  font-weight: 200;
   padding: 1.5rem 2rem;
-  border: 0.5px solid transparent;
+  border-bottom: 0.5px solid transparent;
 }
 @media only screen and (min-width: 56.25em) {
   .site-header__nav-container a, .site-header__nav-container a:link, .site-header__nav-container a:visited {
@@ -129,7 +130,7 @@
 }
 .site-header__nav-container a:active, .site-header__nav-container a:hover, .site-header__nav-container a:focus {
   transition: all 0.3s;
-  border-color: var(--wp--preset--color--light-gold);
+  border-color: rgba(var(--wp--preset--color--light-gold), 0.2);
   color: var(--wp--preset--color--gold);
   background-color: var(--wp--preset--color--green);
 }
