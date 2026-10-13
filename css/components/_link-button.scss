@@ -7,7 +7,9 @@
 	&:visited {
 		text-transform: uppercase;
 		text-decoration: none;
-		color: v.$darkGreen;
+		background-color: v.$lightGreen;
+		color: v.$gold;
+
 		padding: 1.7rem 3rem;
 		transition: all 0.2s;
 		font-family: v.$font-display;
@@ -25,8 +27,8 @@
 		&:hover,
 		&:active,
 		&:focus {
-			background-color: v.$lightGreen;
-			color: v.$gold;
+			background-color: v.$gold;
+			color: v.$darkGreen;
 		}
 	}
 }

@@ -204,7 +204,8 @@ body {
 .btn, .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
-  color: var(--wp--preset--color--dark-green);
+  background-color: var(--wp--preset--color--light-green);
+  color: var(--wp--preset--color--gold);
   padding: 1.7rem 3rem;
   transition: all 0.2s;
   font-family: "Dyer Arts and Crafts", serif;
@@ -220,8 +221,8 @@ body {
   border: 1px solid var(--wp--preset--color--gold);
 }
 .btn--gold:hover, .btn--gold:active, .btn--gold:focus {
-  background-color: var(--wp--preset--color--light-green);
-  color: var(--wp--preset--color--gold);
+  background-color: var(--wp--preset--color--gold);
+  color: var(--wp--preset--color--dark-green);
 }
 
 /*# sourceMappingURL=index.css.map*/

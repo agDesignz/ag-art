@@ -21,7 +21,7 @@ export default function Edit() {
 
 				{/* Navigation Menu */}
 				<div className="site-header__overlay">
-					<button className="site-header__toggle site-header__toggle--close site-header__icon site-header__icon--close">
+					<button className="site-header__icon site-header__icon--close site-header__icon--toggle">
 						<CloseIcon />
 					</button>
 					<div className="site-header__nav-container">
@@ -33,7 +33,7 @@ export default function Edit() {
 						/>
 					</div>
 				</div>
-				<button className="site-header__toggle site-header__toggle--open site-header__icon site-header__icon--hamburger">
+				<button className="site-header__icon site-header__icon--open site-header__icon--toggle">
 					<HamburgerIcon />
 				</button>
 			</div>

@@ -129,7 +129,6 @@
 			&:visited {
 				display: inline-block;
 				text-decoration: none;
-				color: inherit;
 				font-family: v.$font-tertiary;
 				font-size: 5rem;
 				font-weight: 200;
@@ -146,7 +145,7 @@
 			&:hover,
 			&:focus {
 				transition: all 0.3s;
-				border-color: rgba(v.$lightGold, 0.2);
+				border-color: rgba(v.$gold, 0.2);
 				color: v.$gold;
 				background-color: v.$green;
 			}

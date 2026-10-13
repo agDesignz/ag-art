@@ -135,7 +135,7 @@ function Edit() {
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
         className: "site-header__overlay",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("button", {
-          className: "site-header__toggle site-header__toggle--close site-header__icon site-header__icon--close",
+          className: "site-header__icon site-header__icon--close site-header__icon--toggle",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_assets_icons_house_close_svg__WEBPACK_IMPORTED_MODULE_5__.ReactComponent, {})
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
           className: "site-header__nav-container",
@@ -147,7 +147,7 @@ function Edit() {
           })
         })]
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("button", {
-        className: "site-header__toggle site-header__toggle--open site-header__icon site-header__icon--hamburger",
+        className: "site-header__icon site-header__icon--open site-header__icon--toggle",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_assets_icons_house_hamburger_svg__WEBPACK_IMPORTED_MODULE_4__.ReactComponent, {})
       })]
     })
