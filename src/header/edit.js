@@ -4,7 +4,7 @@ import "./style.scss";
 import { ReactComponent as LogoIcon } from "../../assets/icons/logo.svg";
 import { ReactComponent as HamburgerIcon } from "../../assets/icons/house-hamburger.svg";
 import { ReactComponent as CloseIcon } from "../../assets/icons/house-close.svg";
-const TEMPLATE = [["core/navigation", { overlayMenu: "never" }]];
+const TEMPLATE = [["agart-blocks/ag-nav", { overlayMenu: "never" }]];
 
 export default function Edit() {
 	const blockProps = useBlockProps({ className: "site-header" });
@@ -27,7 +27,7 @@ export default function Edit() {
 					<div className="site-header__nav-container">
 						<InnerBlocks
 							template={TEMPLATE}
-							allowedBlocks={["core/navigation"]}
+							allowedBlocks={["agart-blocks/ag-nav"]}
 							templateLock="insert"
 							className="site-header__nav-container"
 						/>

@@ -116,7 +116,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const TEMPLATE = [["core/navigation", {
+const TEMPLATE = [["agart-blocks/ag-nav", {
   overlayMenu: "never"
 }]];
 function Edit() {
@@ -141,7 +141,7 @@ function Edit() {
           className: "site-header__nav-container",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.InnerBlocks, {
             template: TEMPLATE,
-            allowedBlocks: ["core/navigation"],
+            allowedBlocks: ["agart-blocks/ag-nav"],
             templateLock: "insert",
             className: "site-header__nav-container"
           })

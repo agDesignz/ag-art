@@ -1,0 +1,53 @@
+/*!************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/site-nav/style.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************/
+.site-nav {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15vh;
+}
+@media only screen and (min-width: 56.25em) {
+  .site-nav {
+    height: 100%;
+    margin-top: 0;
+  }
+}
+.site-nav__list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  list-style: none;
+}
+@media only screen and (min-width: 56.25em) {
+  .site-nav__list {
+    flex-direction: row;
+    gap: 1rem;
+  }
+}
+.site-nav a, .site-nav a:link, .site-nav a:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 5rem;
+  font-weight: 200;
+  color: var(--wp--preset--color--light-gold);
+  padding: 1.5rem 2rem;
+  border-bottom: 0.5px solid transparent;
+}
+@media only screen and (min-width: 56.25em) {
+  .site-nav a, .site-nav a:link, .site-nav a:visited {
+    font-size: 3.5rem;
+    padding: 0.5rem 2rem;
+  }
+}
+.site-nav a:active, .site-nav a:hover, .site-nav a:focus {
+  transition: all 0.3s;
+  border-color: rgba(var(--wp--preset--color--gold), 0.2);
+  color: var(--wp--preset--color--gold);
+  background-color: var(--wp--preset--color--green);
+}
+
+/*# sourceMappingURL=style-index.css.map*/

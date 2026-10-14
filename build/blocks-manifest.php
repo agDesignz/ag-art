@@ -191,5 +191,30 @@ return array(
 		),
 		'textdomain' => 'header',
 		'editorScript' => 'file:./index.js'
+	),
+	'site-nav' => array(
+		'$schema' => 'https://schemas.wp.org/trunk/block.json',
+		'apiVersion' => 3,
+		'name' => 'agart-blocks/ag-nav',
+		'version' => '0.1.0',
+		'title' => 'AG Art Site Nav',
+		'category' => 'theme',
+		'icon' => 'smiley',
+		'description' => 'Site Nav.',
+		'example' => array(
+			
+		),
+		'attributes' => array(
+			'menuRef' => array(
+				'type' => 'number'
+			)
+		),
+		'supports' => array(
+			'html' => false
+		),
+		'textdomain' => 'AG Art',
+		'editorScript' => 'file:./index.js',
+		'style' => 'file:./style-index.css',
+		'render' => 'file:./render.php'
 	)
 );
