@@ -167,7 +167,7 @@ module.exports = window["wp"]["i18n"];
   \**********************************/
 (module) {
 
-module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"agart-blocks/ag-art-home-body","version":"0.1.0","title":"AG Art Home Body","category":"theme","icon":"menu-alt3","description":"Home Page Body Section.","example":{},"attributes":{"customClass":{"type":"string","default":"home-body"}},"supports":{"html":false,"className":true},"textdomain":"AG Art","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css"}');
+module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"agart-blocks/ag-art-home-body","version":"0.1.0","title":"AG Art Home Body","category":"theme","icon":"menu-alt3","description":"Home Page Body Section.","example":{},"attributes":{"customClass":{"type":"string","default":"main"}},"supports":{"html":false,"className":true},"textdomain":"AG Art","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css"}');
 
 /***/ }
 

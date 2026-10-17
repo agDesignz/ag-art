@@ -1,17 +1,17 @@
 {
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
-  "name": "agart-blocks/ag-art-home-body",
+  "name": "agart-blocks/main-section",
   "version": "0.1.0",
-  "title": "AG Art Home Body",
+  "title": "AGArt Main Section",
   "category": "theme",
   "icon": "menu-alt3",
-  "description": "Home Page Body Section.",
+  "description": "Adjustable Main Section.",
   "example": {},
   "attributes": {
-    "customClass": {
-      "type": "string",
-      "default": "home-body"
+    "padding": {
+      "type": "boolean",
+      "default": true
     }
   },
   "supports": {

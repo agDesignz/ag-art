@@ -1,0 +1,19 @@
+// @use "../abstracts/mixins" as m;
+
+// .main-section {
+// 	flex-grow: 1;
+// 	display: flex;
+// 	flex-direction: column;
+// 	align-items: center;
+// 	justify-content: center;
+// 	gap: 2rem;
+// 	width: 100%;
+
+// 	@include m.respond(bp-sm) {
+// 		gap: 5rem;
+// 	}
+
+// 	&--padding {
+// 		padding: 2rem;
+// 	}
+// }
