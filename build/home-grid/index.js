@@ -29,7 +29,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-// import "./editor.scss";
 
 const SLOT_COUNT = 4;
 function ImageSlot({

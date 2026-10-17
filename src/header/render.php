@@ -4,9 +4,9 @@
 $logo_slug = $attributes['logo'] ?? 'logo';
 $hamburger_slug = $attributes['hamburger'] ?? 'house-hamburger';
 $close_slug = $attributes['close'] ?? 'house-close';
-$logo_svg  = my_theme_get_icon( $logo_slug );
-$hamburger_svg  = my_theme_get_icon( $hamburger_slug );
-$close_svg = my_theme_get_icon( $close_slug);
+$logo_svg  = ag_art_get_icon( $logo_slug );
+$hamburger_svg  = ag_art_get_icon( $hamburger_slug );
+$close_svg = ag_art_get_icon( $close_slug);
 
 $wrapper_attributes = get_block_wrapper_attributes( [ 'class' => 'site-header' ] );
 ?>

@@ -68,33 +68,6 @@ return array(
 		'render' => 'file:./render.php',
 		'viewScript' => 'file:./view.js'
 	),
-	'home-body' => array(
-		'$schema' => 'https://schemas.wp.org/trunk/block.json',
-		'apiVersion' => 3,
-		'name' => 'agart-blocks/ag-art-home-body',
-		'version' => '0.1.0',
-		'title' => 'AG Art Home Body',
-		'category' => 'theme',
-		'icon' => 'menu-alt3',
-		'description' => 'Home Page Body Section.',
-		'example' => array(
-			
-		),
-		'attributes' => array(
-			'customClass' => array(
-				'type' => 'string',
-				'default' => 'home-body'
-			)
-		),
-		'supports' => array(
-			'html' => false,
-			'className' => true
-		),
-		'textdomain' => 'AG Art',
-		'editorScript' => 'file:./index.js',
-		'editorStyle' => 'file:./index.css',
-		'style' => 'file:./style-index.css'
-	),
 	'home-content' => array(
 		'$schema' => 'https://schemas.wp.org/trunk/block.json',
 		'apiVersion' => 3,
@@ -192,6 +165,33 @@ return array(
 		'textdomain' => 'header',
 		'editorScript' => 'file:./index.js'
 	),
+	'main-section' => array(
+		'$schema' => 'https://schemas.wp.org/trunk/block.json',
+		'apiVersion' => 3,
+		'name' => 'agart-blocks/main-section',
+		'version' => '0.1.0',
+		'title' => 'AGArt Main Section',
+		'category' => 'theme',
+		'icon' => 'menu-alt3',
+		'description' => 'Adjustable Main Section.',
+		'example' => array(
+			
+		),
+		'attributes' => array(
+			'padding' => array(
+				'type' => 'boolean',
+				'default' => true
+			)
+		),
+		'supports' => array(
+			'html' => false,
+			'className' => true
+		),
+		'textdomain' => 'AG Art',
+		'editorScript' => 'file:./index.js',
+		'editorStyle' => 'file:./index.css',
+		'style' => 'file:./style-index.css'
+	),
 	'site-nav' => array(
 		'$schema' => 'https://schemas.wp.org/trunk/block.json',
 		'apiVersion' => 3,
@@ -216,5 +216,32 @@ return array(
 		'editorScript' => 'file:./index.js',
 		'style' => 'file:./style-index.css',
 		'render' => 'file:./render.php'
+	),
+	'work-body' => array(
+		'$schema' => 'https://schemas.wp.org/trunk/block.json',
+		'apiVersion' => 3,
+		'name' => 'agart-blocks/work-body',
+		'version' => '0.1.0',
+		'title' => 'Work Body',
+		'category' => 'theme',
+		'icon' => 'menu-alt3',
+		'description' => 'Work Page Body',
+		'example' => array(
+			
+		),
+		'attributes' => array(
+			'customClass' => array(
+				'type' => 'string',
+				'default' => 'body work-body'
+			)
+		),
+		'supports' => array(
+			'html' => false,
+			'className' => true
+		),
+		'textdomain' => 'AG Art',
+		'editorScript' => 'file:./index.js',
+		'editorStyle' => 'file:./index.css',
+		'style' => 'file:./style-index.css'
 	)
 );
