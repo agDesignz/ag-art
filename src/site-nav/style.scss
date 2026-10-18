@@ -6,8 +6,8 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
-	margin-top: 15vh;
+	// justify-content: center;
+	// margin-top: 15vh;
 
 	@include m.respond(bp-md) {
 		height: 100%;

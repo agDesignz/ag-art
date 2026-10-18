@@ -83,6 +83,7 @@
 			height: 100vh;
 			background: v.$bg-green;
 			z-index: 150;
+			gap: 10%;
 
 			@include m.respond(bp-sm) {
 				padding: 4.5rem 2rem;
@@ -102,8 +103,6 @@
 			display: flex;
 			flex-direction: column;
 			align-items: center;
-			justify-content: center;
-			margin-top: 15vh;
 
 			@include m.respond(bp-md) {
 				height: 100%;
