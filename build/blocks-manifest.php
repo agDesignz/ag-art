@@ -217,31 +217,32 @@ return array(
 		'style' => 'file:./style-index.css',
 		'render' => 'file:./render.php'
 	),
-	'work-body' => array(
+	'work-layout' => array(
 		'$schema' => 'https://schemas.wp.org/trunk/block.json',
 		'apiVersion' => 3,
-		'name' => 'agart-blocks/work-body',
+		'name' => 'agart-blocks/work-layout',
 		'version' => '0.1.0',
-		'title' => 'Work Body',
-		'category' => 'theme',
-		'icon' => 'menu-alt3',
-		'description' => 'Work Page Body',
+		'title' => 'AGArt Work Layout',
+		'category' => 'widgets',
+		'icon' => 'insert',
+		'description' => 'Work page layout',
 		'example' => array(
 			
 		),
-		'attributes' => array(
-			'customClass' => array(
-				'type' => 'string',
-				'default' => 'body work-body'
-			)
-		),
 		'supports' => array(
-			'html' => false,
-			'className' => true
+			'html' => false
+		),
+		'attributes' => array(
+			'title' => array(
+				'type' => 'string',
+				'default' => 'My Work'
+			),
+			'textContent' => array(
+				'type' => 'string'
+			)
 		),
 		'textdomain' => 'AG Art',
 		'editorScript' => 'file:./index.js',
-		'editorStyle' => 'file:./index.css',
 		'style' => 'file:./style-index.css'
 	)
 );

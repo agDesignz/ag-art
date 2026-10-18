@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "agart-blocks/work-layout",
+  "version": "0.1.0",
+  "title": "AGArt Work Layout",
+  "category": "widgets",
+  "icon": "insert",
+  "description": "Work page layout",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "My Work"
+    },
+    "textContent": {
+      "type": "string"
+    }
+  },
+  "textdomain": "AG Art",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css"
+}
