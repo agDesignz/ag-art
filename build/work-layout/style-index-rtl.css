@@ -2,44 +2,50 @@
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/work-layout/style.scss ***!
   \***************************************************************************************************************************************************************************************************************************************************/
 .work-layout {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   gap: 4rem;
   max-width: 200rem;
 }
+@media only screen and (min-width: 56.25em) {
+  .work-layout {
+    grid-template-columns: 1fr 2fr;
+  }
+}
 @media only screen and (min-width: 62.5em) {
   .work-layout {
-    flex-direction: row;
+    grid-template-columns: 1fr 2fr;
     gap: 5.2rem;
-    width: 80%;
+  }
+}
+@media only screen and (min-width: 75em) {
+  .work-layout {
+    grid-template-columns: 1fr 3fr;
+    max-width: 120rem;
+  }
+}
+@media only screen and (min-width: 112.5em) {
+  .work-layout {
+    max-width: 80%;
   }
 }
 .work-layout__content {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  align-items: center;
 }
-@media only screen and (min-width: 62.5em) {
+@media only screen and (min-width: 56.25em) {
   .work-layout__content {
     align-items: end;
-    gap: 3.2rem;
-    width: 25%;
     text-align: end;
   }
 }
-@media only screen and (min-width: 62.5em) {
-  .work-layout__gallery-area {
-    width: 75%;
+@media only screen and (min-width: 75em) {
+  .work-layout__content {
+    gap: 3.2rem;
   }
 }
 .work-layout__text {
   max-width: 60rem;
-  font-size: 3rem;
+  font-size: 2.4rem;
   font-weight: 200;
-}
-@media only screen and (min-width: 62.5em) {
-  .work-layout__text {
-    max-width: 40rem;
-  }
 }
