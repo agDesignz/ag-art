@@ -1,0 +1,55 @@
+@use "../../css/abstracts/variables" as v;
+
+.drawing-gallery {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.75rem;
+
+	&__item {
+		flex: 0 0 auto; // no grow, no shrink: width comes from the image
+		height: 24rem;
+		max-width: 100%;
+		padding: 0;
+		border: 0;
+		background: none;
+		cursor: zoom-in;
+
+		&:focus-visible {
+			outline: 3px solid currentColor;
+			outline-offset: 2px;
+		}
+	}
+
+	&__img {
+		display: block;
+		height: 100%;
+		width: auto; // width derived from the aspect ratio
+		max-width: 100%;
+	}
+
+	&__lightbox {
+		max-width: min(90vw, 1200px);
+		max-height: 90vh;
+		padding: 1rem;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+
+		transform: translate(-50%, -50%);
+		&::backdrop {
+			background: v.$darkGreen;
+			opacity: 0.9;
+		}
+	}
+	&__full {
+		display: block;
+		max-width: 100%;
+		max-height: 75vh;
+		margin-inline: auto;
+	}
+	&__close {
+		position: absolute;
+		top: 0.5rem;
+		right: 0.5rem;
+	}
+}
