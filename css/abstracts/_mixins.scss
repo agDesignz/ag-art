@@ -1,32 +1,32 @@
 @mixin respond($breakpoint) {
-  @if $breakpoint == bp-xs {
-    @media only screen and (min-width: 21.875em) {
-      @content;
-    } //600px
-  }
-  @if $breakpoint == bp-sm {
-    @media only screen and (min-width: 37.5em) {
-      @content;
-    } //600px
-  }
-  @if $breakpoint == bp-md {
-    @media only screen and (min-width: 56.25em) {
-      @content;
-    } //900px
-  }
-  @if $breakpoint == bp-lg {
-    @media only screen and (min-width: 62.5em) {
-      @content;
-    } //1000px
-  }
-  @if $breakpoint == bp-xl {
-    @media only screen and (min-width: 75em) {
-      @content;
-    } //1200px
-  }
-  @if $breakpoint == bp-xxl {
-    @media only screen and (min-width: 112.5em) {
-      @content;
-    } //1800
-  }
+	@if $breakpoint == bp-xs {
+		@media only screen and (min-width: 21.875em) {
+			@content;
+		} //350px
+	}
+	@if $breakpoint == bp-sm {
+		@media only screen and (min-width: 37.5em) {
+			@content;
+		} //600px
+	}
+	@if $breakpoint == bp-md {
+		@media only screen and (min-width: 56.25em) {
+			@content;
+		} //900px
+	}
+	@if $breakpoint == bp-lg {
+		@media only screen and (min-width: 62.5em) {
+			@content;
+		} //1000px
+	}
+	@if $breakpoint == bp-xl {
+		@media only screen and (min-width: 75em) {
+			@content;
+		} //1200px
+	}
+	@if $breakpoint == bp-xxl {
+		@media only screen and (min-width: 112.5em) {
+			@content;
+		} //1800
+	}
 }
