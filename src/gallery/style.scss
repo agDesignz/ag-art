@@ -81,7 +81,7 @@
 		padding: 1.5rem;
 		border-radius: 0.75rem;
 		color: v.$lightGold;
-		margin: auto;
+		margin: 1.5rem auto;
 
 		@include m.respond(bp-md) {
 			width: 75%;
