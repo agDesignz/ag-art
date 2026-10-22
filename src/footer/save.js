@@ -7,8 +7,10 @@ export default function save({ attributes }) {
 	return (
 		<footer {...blockProps}>
 			<section className="site-footer__content">
-				<small>&#169; {thisYear}. </small>
-				<RichText.Content value={attributes.content} tagName="small" />
+				<small>
+					&#169; {thisYear}. Designed by the Artist.{" "}
+					<a href="https://alexgeer.dev">agDesignz</a>
+				</small>
 			</section>
 		</footer>
 	);

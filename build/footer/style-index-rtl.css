@@ -16,9 +16,8 @@
   font-weight: 700;
   color: var(--wp--preset--color--light-gold);
   padding: 0.5rem 1rem;
-  border-radius: 50rem;
 }
 .site-footer a:hover, .site-footer a:active, .site-footer a:focus {
   color: var(--wp--preset--color--green);
-  background-color: var(--wp--preset--color--light-gold);
+  background-color: var(--wp--preset--color--gold);
 }

@@ -35,18 +35,14 @@ function Edit({
   const thisYear = today.getFullYear();
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("footer", {
     ...blockProps,
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("section", {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("section", {
       className: "site-footer__content",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("small", {
-        children: ["\xA9 ", thisYear, ". "]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.RichText, {
-        tagName: "small",
-        value: content,
-        onChange: content => setAttributes({
-          content
-        }),
-        placeholder: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_0__.__)("Enter footer content", "alexgeerart")
-      })]
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("small", {
+        children: ["\xA9 ", thisYear, ". Designed by the Artist.", " ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("a", {
+          href: "https://alexgeer.dev",
+          children: "agDesignz"
+        })]
+      })
     })
   });
 }
@@ -104,14 +100,14 @@ function save({
   const thisYear = today.getFullYear();
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("footer", {
     ...blockProps,
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("section", {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("section", {
       className: "site-footer__content",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("small", {
-        children: ["\xA9 ", thisYear, ". "]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_0__.RichText.Content, {
-        value: attributes.content,
-        tagName: "small"
-      })]
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("small", {
+        children: ["\xA9 ", thisYear, ". Designed by the Artist.", " ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+          href: "https://alexgeer.dev",
+          children: "agDesignz"
+        })]
+      })
     })
   });
 }
@@ -176,7 +172,7 @@ module.exports = window["wp"]["i18n"];
   \*******************************/
 (module) {
 
-module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"agart-blocks/ag-art-footer","version":"0.1.0","title":"AG Art Footer","category":"theme","icon":"smiley","description":"Site Footer.","example":{},"attributes":{"className":{"type":"string","default":"site-footer"},"content":{"type":"string"}},"supports":{"html":false},"textdomain":"AG Art","editorScript":"file:./index.js","style":"file:./style-index.css"}');
+module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"agart-blocks/ag-art-footer","version":"0.1.0","title":"AG Art Footer","category":"theme","icon":"smiley","description":"Site Footer.","example":{},"attributes":{"className":{"type":"string","default":"site-footer"}},"supports":{"html":false},"textdomain":"AG Art","editorScript":"file:./index.js","style":"file:./style-index.css"}');
 
 /***/ }
 

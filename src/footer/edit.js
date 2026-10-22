@@ -9,13 +9,10 @@ export default function Edit({ attributes, setAttributes }) {
 	return (
 		<footer {...blockProps}>
 			<section className="site-footer__content">
-				<small>&#169; {thisYear}. </small>
-				<RichText
-					tagName="small"
-					value={content}
-					onChange={(content) => setAttributes({ content })}
-					placeholder={__("Enter footer content", "alexgeerart")}
-				/>
+				<small>
+					&#169; {thisYear}. Designed by the Artist.{" "}
+					<a href="https://alexgeer.dev">agDesignz</a>
+				</small>
 			</section>
 		</footer>
 	);

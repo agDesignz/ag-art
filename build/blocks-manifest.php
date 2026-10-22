@@ -17,9 +17,6 @@ return array(
 			'className' => array(
 				'type' => 'string',
 				'default' => 'site-footer'
-			),
-			'content' => array(
-				'type' => 'string'
 			)
 		),
 		'supports' => array(

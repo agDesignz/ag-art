@@ -9,8 +9,7 @@
 	"description": "Site Footer.",
 	"example": {},
 	"attributes": {
-		"className": { "type": "string", "default": "site-footer" },
-		"content": { "type": "string" }
+		"className": { "type": "string", "default": "site-footer" }
 	},
 	"supports": {
 		"html": false

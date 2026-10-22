@@ -118,7 +118,6 @@
   font-size: 5rem;
   font-weight: 200;
   padding: 1.5rem 2rem;
-  border-bottom: 0.5px solid transparent;
 }
 @media only screen and (min-width: 56.25em) {
   .site-header__nav-container a, .site-header__nav-container a:link, .site-header__nav-container a:visited {
@@ -128,7 +127,6 @@
 }
 .site-header__nav-container a:active, .site-header__nav-container a:hover, .site-header__nav-container a:focus {
   transition: all 0.3s;
-  border-color: rgba(var(--wp--preset--color--gold), 0.2);
-  color: var(--wp--preset--color--gold);
-  background-color: var(--wp--preset--color--green);
+  color: var(--wp--preset--color--green);
+  background-color: var(--wp--preset--color--gold);
 }

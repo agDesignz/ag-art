@@ -12,9 +12,6 @@
     "className": {
       "type": "string",
       "default": "site-footer"
-    },
-    "content": {
-      "type": "string"
     }
   },
   "supports": {

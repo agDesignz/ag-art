@@ -132,7 +132,6 @@
 				font-size: 5rem;
 				font-weight: 200;
 				padding: 1.5rem 2rem;
-				border-bottom: 0.5px solid transparent;
 
 				@include m.respond(bp-md) {
 					font-size: 3.5rem;
@@ -144,9 +143,8 @@
 			&:hover,
 			&:focus {
 				transition: all 0.3s;
-				border-color: rgba(v.$gold, 0.2);
-				color: v.$gold;
-				background-color: v.$green;
+				color: v.$green;
+				background-color: v.$gold;
 			}
 		}
 	}
